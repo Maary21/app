@@ -1,0 +1,13 @@
+{
+    "data":[
+        {
+            "Nombre":"Claudia Sánchez Zepeda",
+            "Correo":"claudiasan@gmail.com",
+            "Club": "Alpha 2",
+            "Membresia":"Platino",
+            "Estatus": "Vigente",
+            "Saldo": "123"
+        }
+
+    ]
+}

@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color ="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title> Mi Perfil</ion-title>
+   </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card-content>
+    <ion-card-header>
+    <br>
+    <ion-card>
+      <img class="icon" src="assets/icon/perfil.png" >
+      <ion-item *ngFor="let inf of info">
+        <ion-card-title>{{inf.Nombre}}</ion-card-title>
+      </ion-item>
+     <ion-item *ngFor="let inf of info">
+      <p><br><ion-card-subtitle>Correo: {{inf.Correo}}</ion-card-subtitle>
+        <ion-card-subtitle>Club: {{inf.Club}}</ion-card-subtitle>
+        <ion-card-subtitle>Tipo de Membresia: {{inf.Membresia}}</ion-card-subtitle>
+        <ion-card-subtitle>Estatus de membresia: {{inf.Estatus}}</ion-card-subtitle>
+        <ion-card-subtitle>Saldo pendiente: {{inf.Saldo}}</ion-card-subtitle><br>
+      </p>
+    </ion-item>
+  </ion-card>
+  </ion-card-header>
+  </ion-card-content>
+</ion-content>

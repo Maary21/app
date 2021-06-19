@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color ="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title> Mis Pagos</ion-title>
+   </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card-content>
+    <ion-card-header>
+    <br>
+    <ion-card>
+        <ion-card-title>PAGOS PENDIENTES</ion-card-title>
+        <br><ion-card-subtitle> Usted solicito 1 servicio de clases de natacion</ion-card-subtitle>
+      <p><br><ion-card-subtitle> Saldo a pagar: $1234</ion-card-subtitle>
+        <br>
+        <ion-card-subtitle>Este saldo es el que debe pagar por las inscripciones a los servicios que
+          usted solicito
+        </ion-card-subtitle>
+      </p>
+      <ion-button expand="block" (click)="Pagar()">
+        Pagar
+      </ion-button>
+  </ion-card>
+  </ion-card-header>
+  </ion-card-content>
+</ion-content>
